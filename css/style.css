@@ -38,7 +38,7 @@ ul {
 .popup-container{
   position: relative;
   box-sizing: border-box;
-  width: 320px;
+  width: 330px;
   background-color: #fff;
   margin: 50px auto;
 }
@@ -646,6 +646,9 @@ ul {
   .container{
     padding: 0;
   }
+  .popup-container{
+    width: 390px;
+  }
   .container-header {
     display: flex;
     flex-wrap: wrap;
@@ -725,6 +728,15 @@ ul {
 
 }
 @media(min-width: 1200px){
+  .popup-container{
+    width: 390px;
+  }
+  .radio-content-text::before{
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+  }
+
   .header{
     background-image: url(../img/banner-bg.jpg);
   }
@@ -835,6 +847,7 @@ ul {
   }
   .product-container {
     outline-offset: 40px;
+    max-width: 310px;
   }
   .socials{
     margin-top: 65px;
